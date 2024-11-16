@@ -1,0 +1,53 @@
+/* Général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+}
+
+/* Titre principal */
+h1 {
+    color: #28a745;
+    margin: 20px 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+/* Sous-titre ou texte d'accompagnement */
+h1:nth-of-type(2) {
+    color: #555;
+    font-size: 1.5rem;
+    text-transform: none;
+}
+
+/* Image */
+img {
+    max-width: 150px; /* Limite la taille de l'image */
+    height: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Alignement des éléments */
+br {
+    display: none; /* Optionnel : cacher les <br> si inutiles */
+}
+
+/* Responsive pour petits écrans */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h1:nth-of-type(2) {
+        font-size: 1.2rem;
+    }
+
+    img {
+        max-width: 100px;
+    }
+}

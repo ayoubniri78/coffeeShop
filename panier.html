@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier - Terres de Café</title>
+    <link rel="stylesheet" href="panier.css">
+</head>
+
+<body>
+    <div class="cart-content">
+        <h2>Votre Panier</h2>
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>PRODUIT</th>
+                    <th>PRIX</th>
+                    <th>QUANTITÉ</th>
+                    <th>TOTAL</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </tbody>
+        </table>
+
+        <div class="cart-summary">
+            <p id="total-amount">Montant total : 0.00 DH</p>
+            <a href="paiment.html">
+                <button id="checkout-btn" class="checkout-btn">Passer à la caisse</button>
+            </a>
+        </div>
+    </div>
+
+    <script src="panier.js"></script>
+</body>
+
+</html>
